@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestAlarApp</string>
+    <string name="login_hint">Введите логин</string>
+    <string name="password_hint">Введите пароль</string>
+    <string name="result_text_view">Тут будет результат</string>
+    <string name="button_login">Войти</string>
+    <string name="result_success">Успешно</string>
+    <string name="result_failed">Логин или пароль не верные</string>
+    <string name="result_view_hint">Тут будет результат</string>
+</resources>
