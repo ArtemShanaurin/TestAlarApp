@@ -8,6 +8,7 @@ import android.view.View
 import android.widget.TextView
 import com.example.testalarapp.api.ApiFactory
 import com.example.testalarapp.api.ApiService
+import com.example.testalarapp.database.AppDataBase
 import com.example.testalarapp.database.DataOfDataBase
 import com.example.testalarapp.databinding.ActivityBaseBinding
 import com.example.testalarapp.databinding.ActivityMainBinding
@@ -52,11 +53,13 @@ class ActivityBase : AppCompatActivity() {
                 .subscribe({
                        Log.d("TEST", it.toString())
 
+
+
                     binding.textViewNameRow1.text = ("${it.data?.get(0)?.name}" + " ${it.data?.get(0)?.country}")
                     binding.textViewNameRow2.text = it.data?.get(1)?.name
                     binding.textViewNameRow2.setOnClickListener {
                         showInfo()
-                        val country2 = 
+                        val country2 = AppDataBase().data?.get(2)?.country
                     }
                     binding.textViewNameRow3.text = it.data?.get(2)?.name
                     binding.textViewNameRow4.text = it.data?.get(3)?.name
