@@ -7,4 +7,5 @@
     <string name="result_success">Успешно</string>
     <string name="result_failed">Логин или пароль не верные</string>
     <string name="result_view_hint">Тут будет результат</string>
+    <string name="back_button">Назад</string>
 </resources>

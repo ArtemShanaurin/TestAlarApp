@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/TestAlarApp/app/src/main/res/layout/activity_base.xml" value="0.25" />
+        <entry key="..\:/TestAlarApp/app/src/main/res/layout/activity_detail_info.xml" value="0.2125" />
         <entry key="..\:/TestAlarApp/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/TestAlarApp/app/src/main/res/layout/list_of_item.xml" value="0.17831813576494426" />
         <entry key="..\:/TestAlarApp/app/src/main/res/xml/network_security_config.xml" value="0.1" />
       </map>
     </option>

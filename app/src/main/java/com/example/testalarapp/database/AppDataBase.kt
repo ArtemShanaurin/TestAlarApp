@@ -15,6 +15,6 @@ data class AppDataBase(
 
     @SerializedName("data")
     @Expose
-    var data: List<DataOfDataBase>? = null)
+    var data: ArrayList<DataOfDataBase>? = null)
 
 

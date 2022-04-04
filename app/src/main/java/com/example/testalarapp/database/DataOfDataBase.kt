@@ -1,11 +1,8 @@
 package com.example.testalarapp.database
 
-import android.widget.TextView
 import com.google.gson.annotations.Expose
-
 import com.google.gson.annotations.SerializedName
-
-
+import java.io.Serializable
 
 
 data class DataOfDataBase (
@@ -27,6 +24,6 @@ data class DataOfDataBase (
 
     @SerializedName("lon")
     @Expose
-    val lon: Double? = null)
+    val lon: Double? = null): Serializable
 
 

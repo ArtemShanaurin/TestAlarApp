@@ -17,12 +17,15 @@ interface ApiService{
 
     @GET("data.cgi/")
     fun getDataBase(
-        @Query(QUERY_PARAM_CODE) code: String
+        @Query(QUERY_PARAM_CODE) code: String,
+        @Query(QUERY_PARAM_PAGE_NUMBER) p: Int
     ): Single<AppDataBase>
+
 
     companion object{
         private const val QUERY_PARAM_USERNAME = "username"
         private const val QUERY_PARAM_PASSWORD = "password"
         private const val QUERY_PARAM_CODE = "code"
+        private const val QUERY_PARAM_PAGE_NUMBER = "p"
     }
 }
